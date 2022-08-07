@@ -1,5 +1,7 @@
 # Abstract-pvpingtokens
 
+These are an integrated underlying enchantments system based on pickaxe upgrades for an OP Prisons server.
+
 The original pvpingtokens rebuilt with configcore and reditems.
 
 * This will not function and will not build.
