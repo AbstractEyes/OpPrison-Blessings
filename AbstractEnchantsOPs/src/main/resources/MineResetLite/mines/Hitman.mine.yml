@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 940
+  maxY: 77
+  maxX: 364
+  ignoreLadders: true
+  fillMode: true
+  world: mineworld
+  minY: 3
+  resetWarnings:
+  - '1'
+  minX: 290
+  composition:
+    '57': 0.6
+    '133': 0.4
+  name: Hitman
+  resetClock: 29
+  minZ: 866
+  isSilent: false

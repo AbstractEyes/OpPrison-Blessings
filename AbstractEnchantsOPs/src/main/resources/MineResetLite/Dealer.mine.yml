@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 1214
+  maxY: 77
+  maxX: 87
+  ignoreLadders: true
+  fillMode: true
+  world: mineworld
+  minY: 3
+  resetWarnings:
+  - '1'
+  minX: 13
+  composition:
+    '168:0': 0.6
+    '159:3': 0.4
+  name: Dealer
+  resetClock: 29
+  minZ: 1140
+  isSilent: false

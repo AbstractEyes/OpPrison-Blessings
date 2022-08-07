@@ -1,0 +1,176 @@
+{
+	"imbued": {
+		"crushingboots": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.BootsCrushingBoots",
+			"name": "crushingboots",
+			"display-name": "&b[UNIQUE]&c&lCrushing Boots",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued these boots",
+				"These boots provide unique bonuses to DrillHammer blessings",
+				"as well as regularly crushing blocks below the player."
+			],
+			"display-lore": [
+				"&c&lCRUSHING"
+			],
+			"material": "DIAMOND_BOOTS",
+			"chance": 10,
+			"cooldown": 0,
+			"args": [4, 4, 2, -1, 4, 4],
+			"passives-bonuses": []
+		},
+		"shockwaveburst": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.ChestplateShockwaveBurst",
+			"name": "shockwaveburst",
+			"display-name": "&b[UNIQUE]&c&lShockwave Burst Chest",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this Chestplate",
+				"It provides added bonuses to explosive passives,",
+				"as well as causing a regular shockwave while mining."
+			],
+			"display-lore": [
+				"&c&lSHOCKWAVE"
+			],
+			"material": "DIAMOND_CHESTPLATE",
+			"chance": 10,
+			"cooldown": 15,
+			"args": [3, 3, 3, 3, 3, 3],
+			"passives-bonuses": []
+		},
+		"trinket": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.HelmetTrinketFinder",
+			"name": "trinket",
+			"display-name": "&b[UNIQUE]&c&lTrinket Finder Helmet",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this pickaxe",
+				"Helmet enchant increases the likelihood of receiving ",
+				"scratchers, keys, tokens, sponges, beacons, and dragon eggs",
+				"any time while mining.",
+				"This helmet also augments many blessings to be more potent"
+			],
+			"display-lore": [
+				"&c&lTRINKET"
+			],
+			"material": "DIAMOND_HELMET",
+			"chance": 10,
+			"cooldown": 0,
+			"args": [1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5],
+			"passives-bonuses": []
+		},
+		"kickdown": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.PantsKickdown",
+			"name": "kickdown",
+			"display-name": "&b[UNIQUE]&c&lCrew Kick-down Leggings",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued these leggings",
+				"These are incredibly powerful and empower many blessings",
+				"as well as reducing all shop token costs by themselves"
+			],
+			"display-lore": [
+				"&c&lKICKDOWN"
+			],
+			"material": "DIAMOND_LEGGINGS",
+			"chance": 10,
+			"cooldown": 0,
+			"args": [2, 20],
+			"passives-bonuses": [0.10]
+		},
+		"baddaboom": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.PickaxeBaddaBoom",
+			"name": "baddaboom",
+			"display-name": "&b[UNIQUE]&c&lBIG &4&lBADDA &c&lBOOOOM",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this pickaxe",
+				"Augments and improves all explosive based blessings",
+				"This pickaxe when enchanted with explosives enchants",
+				"provides the largest and most potent explosions.",
+				"Truly a tool of the gods."
+			],
+			"display-lore": [
+				"&c&lBIG &4&lBADDA-&c&lBOOOOM"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"chance": 2,
+			"cooldown": 10,
+			"args": [4, 4, 4, 4, 4, 4],
+			"passives-bonuses": []
+		},
+		"megadrill": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.PickaxeMegaDrill",
+			"name": "megadrill",
+			"display-name": "&b[UNIQUE]&c&lMega Drill Pickaxe",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this pickaxe",
+				"Improves and empowers all DrillHammer based passives.",
+				"When paired with DrillHammer enchant, it becomes much more potent",
+				"Truly a tool of the gods."
+			],
+			"display-lore": [
+				"&c&lMEGA-DRILL"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"chance": 5,
+			"cooldown": 5,
+			"args": [],
+			"passives-bonuses": []
+		},
+		"antiflee": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.SwordAxeAntiFlee",
+			"name": "antiflee",
+			"display-name": "&b[UNIQUE]&c&lAnti-flee",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this sword",
+				"10% chance to pull a target enemy toward you."
+			],
+			"display-lore": [
+				"&c&lANTI-FLEE "
+			],
+			"material": "DIAMOND_SWORD",
+			"chance": 10,
+			"cooldown": 3,
+			"args": [2]
+		},
+		"mobdestroyer": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.SwordAxeMobDestroyer",
+			"name": "mobdestroyer",
+			"display-name": "&b[UNIQUE]&c&lMob Destroyer",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this sword",
+				"10% chance to deal 8x damage to a mob or boss."
+			],
+			"display-lore": [
+				"&c&lMOB-DESTROYER"
+			],
+			"material": "DIAMOND_SWORD",
+			"chance": 10,
+			"cooldown": 0,
+			"args": [8],
+			"passives-bonuses": []
+		},
+		"prisonassault": {
+			"imbued-class": "com.abstractphil.enchantments.imbued.effects.SwordAxePrisonAssault",
+			"name": "prisonassault",
+			"display-name": "&b[UNIQUE]&c&lPrison Assault",
+			"display-message": "",
+			"lore": [
+				"The gods of Prison have uniquely imbued this sword",
+				"12% chance to deal double damage to a player"
+			],
+			"display-lore": [
+				"&c&lPRISON-ASSAULT"
+			],
+			"material": "DIAMOND_SWORD",
+			"chance": 12,
+			"cooldown": 0,
+			"args": [2],
+			"passives-bonuses": []
+		}
+	}
+}

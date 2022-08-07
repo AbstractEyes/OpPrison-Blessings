@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 693
+  maxY: 77
+  maxX: 626
+  ignoreLadders: true
+  fillMode: true
+  world: mineworld
+  minY: 3
+  resetWarnings:
+  - '1'
+  minX: 552
+  composition:
+    '24:2': 0.6
+    '159:1': 0.4
+  name: Bandit
+  resetClock: 29
+  minZ: 619
+  isSilent: false

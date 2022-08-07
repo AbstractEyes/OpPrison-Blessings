@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 693
+  maxY: 77
+  maxX: 364
+  ignoreLadders: true
+  fillMode: true
+  world: mineworld
+  minY: 3
+  resetWarnings:
+  - '1'
+  minX: 290
+  composition:
+    '1:6': 0.6
+    '159': 0.4
+  name: Prisoner
+  resetClock: 29
+  minZ: 619
+  isSilent: false

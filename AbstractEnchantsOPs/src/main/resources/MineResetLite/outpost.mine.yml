@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 80.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 190
+  maxY: 87
+  maxX: 190
+  ignoreLadders: false
+  fillMode: true
+  world: warzone
+  minY: 87
+  resetWarnings:
+  - '5'
+  - '1'
+  minX: 190
+  composition:
+    '133:0': 1.0
+  name: outpost
+  resetClock: 29
+  minZ: 190
+  isSilent: false

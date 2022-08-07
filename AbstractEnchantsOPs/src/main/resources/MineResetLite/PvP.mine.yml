@@ -1,0 +1,24 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 80.0
+  resetDelay: 30
+  surface: ''
+  maxZ: -29
+  maxY: 99
+  maxX: -11
+  ignoreLadders: false
+  fillMode: false
+  world: warzone
+  minY: 50
+  resetWarnings:
+  - '5'
+  - '1'
+  minX: -41
+  composition:
+    '19:0': 0.001
+    '133:0': 0.49
+    '45:0': 0.509
+  name: PvP
+  resetClock: 29
+  minZ: -59
+  isSilent: false

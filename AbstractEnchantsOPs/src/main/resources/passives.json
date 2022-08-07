@@ -1,0 +1,316 @@
+{
+	"passives-details": {
+		"name": "Blessing Enchantments",
+		"material": "SKULL_ITEM",
+		"skull-meta": ""
+	},
+	"passives": {
+		"clout": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.Clout",
+			"name": "clout",
+			"display-name": "Clout",
+			"lore": [
+				"Decreases the shop sell costs of all items",
+				"Pairs with a certain unique item to further reduce shop costs."
+			],
+			"display-lore": [
+				"CLOUT %l"
+			],
+			"material": "DIAMOND_SWORD",
+			"max-level": 10000,
+			"base-cost": 100,
+			"cost-type": "token",
+			"cost-multiplier": 1,
+			"chance-per-level": 0.000025,
+			"max-chance": 25,
+			"cooldown": 0,
+			"args": [],
+			"mastery-bonus": [0.05]
+		},
+		"beaconexchange": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.BeaconExchange",
+			"name": "beaconexchange",
+			"display-name": "Beacon Exchange",
+			"lore": [
+				"This divine blessing provides another entirely different chance",
+				"to receive beacons from mining.",
+				"Further improved odds with a certain unique item..."
+			],
+			"display-lore": [
+				"BEACONEXCHANGE %l"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"max-level": 10000,
+			"base-cost": 500,
+			"cost-multiplier": 1,
+			"chance-per-level": 30,
+			"max-chance": 700000,
+			"cooldown": 30,
+			"args": [],
+			"mastery-bonus": [50000]
+		},
+		"clusterbombs": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.ClusterBombs",
+			"name": "clusterbombs",
+			"display-name": "ClusterBombs",
+			"lore": [
+				"Each level provides +1 cluster bombs to every single explosion",
+				"More cluster bombs can be added while wearing the correct uniques..."
+			],
+			"display-lore": [
+				"CLUSTERBOMB %l"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"max-level": 10000,
+			"base-cost": 150,
+			"cost-type": "token",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 0.01,
+			"max-chance": 0.05,
+			"cooldown": 30,
+			"args": [1, 500],
+			"mastery-bonus": [5]
+		},
+		"dragoneggexchange": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.DragonEggExchange",
+			"name": "dragoneggexchange",
+			"display-name": "Dragon Egg Exchange",
+			"lore": [
+				"Provides a chance to obtain a dragon egg while mining,",
+				"The odds are further improved with a certain unique item..."
+			],
+			"display-lore": [
+				"DRAGONEGG %l"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"max-level": 10000,
+			"base-cost": 1,
+			"cost-type": "ptoken",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 40,
+			"max-chance": 800000,
+			"cooldown": 30,
+			"args": [],
+			"mastery-bonus": [50000]
+		},
+		"drilldozer": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.DrillDozer",
+			"name": "drilldozer",
+			"display-name": "Drill Dozer",
+			"lore": [
+				"Drills through another layer of blocks per level.",
+				"Does not affect MegaDrill's vertical drill effect."
+			],
+			"display-lore": [
+				"DRILLDOZER %l"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"max-level": 2,
+			"base-cost": 1500000,
+			"cost-type": "token",
+			"cost-multiplier": 3,
+			"chance-per-level": 1,
+			"max-chance": 0.05,
+			"cooldown": 30,
+			"args": [1, 1000],
+			"mastery-bonus": [5]
+		},
+		"armageddon": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.Armageddon",
+			"name": "armageddon",
+			"display-name": "Armageddon Drilling",
+			"lore": [
+				"Increases the chances of activating the DrillHammer enchantment effect.",
+				"AYYY JAYYYY"
+			],
+			"display-lore": [
+				"ARMAGEDDON %l"
+			],
+			"material": "DIAMOND_PICKAXE",
+			"max-level": 10000,
+			"base-cost": 500,
+			"cost-type": "token",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 0.000010,
+			"max-chance": 0.01,
+			"cooldown": 30,
+			"args": [1, 1000],
+			"mastery-bonus": [5]
+		},
+		"demolitions": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.Demolitions",
+			"name": "demolitions",
+			"display-name": "Demolitions Expert",
+			"lore": [
+				"Higher chance to remove stray blocks while mining with explosive.",
+				"Further reduces blocks when using some unique items."
+			],
+			"display-lore": [
+				"DEMOLITIONS %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 75,
+			"cost-type": "token",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 0.000025,
+			"max-chance": 0.05,
+			"cooldown": 30,
+			"args": [0.01, 1000],
+			"mastery-bonus": [0.1]
+		},
+		"magneticfinder": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.MagneticFinder",
+			"name": "magneticfinder",
+			"display-name": "Magnetic Finder",
+			"lore": [
+				"Provides a low chance to reward a key while mining without cooldown",
+				"Further improves chance with a certain unique item."
+			],
+			"display-lore": [
+				"MAGNETIC %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 500,
+			"cost-type": "token",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 25,
+			"max-chance": 500000,
+			"cooldown": 30,
+			"args": [2500, 1000],
+			"mastery-bonus": [20000]
+		},
+		"passivetrainer": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.PassiveEnlighten",
+			"name": "passivetrainer",
+			"display-name": "Passive Trainer",
+			"lore": [
+				"This divine blessing provides a chance to be blessed",
+				"with a random already purchased blessing's level up."
+			],
+			"display-lore": [
+				"ENLIGHTEN %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 10,
+			"cost-type": "ptoken",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 40,
+			"max-chance": 800000,
+			"cooldown": 30,
+			"args": [4000, 1000],
+			"mastery-bonus": [40000]
+		},
+		"scratchersahoy": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.ScratchersAhoy",
+			"name": "scratchersahoy",
+			"display-name": "Scratchers Ahoy",
+			"lore": [
+				""
+			],
+			"display-lore": [
+				"SCRATCHERS %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 500,
+			"cost-type": "token",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 20,
+			"max-chance": 400000,
+			"cooldown": 30,
+			"args": [2000, 1000],
+			"mastery-bonus": [20000]
+		},
+		"spongeexchange": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.SpongeExchange",
+			"name": "spongeexchange",
+			"display-name": "Sponge Exchange",
+			"lore": [
+				"This blessing provides a chance to mine sponges everywhere,",
+				"and is further improved with a certain unique item..."
+			],
+			"display-lore": [
+				"SPONGE %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 500,
+			"cost-type": "token",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 30,
+			"max-chance": 600000,
+			"cooldown": 30,
+			"args": [3000, 1000],
+			"mastery-bonus": [30000]
+		},
+		"tokenbaron": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.TokenBaron",
+			"name": "tokenbaron",
+			"display-name": "Token Baron",
+			"lore": [
+				"Improves the minimum and maximum amount of tokens dropped,",
+				"further improved drop counts added from a certain unique item..."
+			],
+			"display-lore": [
+				"BARON %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 2,
+			"cost-type": "ptoken",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 0.000025,
+			"max-chance": 0.05,
+			"cooldown": 30,
+			"args": [0.01, 1000],
+			"mastery-bonus": [5, 10000, 10, 10000]
+		},
+		"veryveryfortunate": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.VeryVeryFortunate",
+			"name": "veryveryfortunate",
+			"display-name": "Very Very Fortunate",
+			"lore": [
+				"Provides EVEN MORE fortune drop blocks at a fixed percentage",
+				"All fortune drops further improved by a certain unique item..."
+			],
+			"display-lore": [
+				"VERYFORTUNATE %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 200,
+			"cost-type": "ptoken",
+			"cost-multiplier": 1.005,
+			"chance-per-level": 0.000025,
+			"max-chance": 0.05,
+			"cooldown": 30,
+			"args": [],
+			"mastery-bonus": [0.025]
+		},
+		"veryfortunate": {
+			"passive-class": "com.abstractphil.enchantments.passives.effects.VeryFortunate",
+			"name": "veryfortunate",
+			"display-name": "Very Fortunate",
+			"lore": [
+				"Improves the fortune drops by a fixed percentage rate",
+				"All fortune drops improved by a certain unique item..."
+			],
+			"display-lore": [
+				"FORTUNATE %l"
+			],
+			"material": "DIAMOND_HELMET",
+			"max-level": 10000,
+			"base-cost": 2,
+			"cost-type": "ptoken",
+			"cost-multiplier": 1.05,
+			"chance-per-level": 0.000025,
+			"max-chance": 50,
+			"cooldown": 0,
+			"args": [],
+			"mastery-bonus": [0.025]
+		}
+	}
+}

@@ -1,0 +1,21 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 0
+  surface: ''
+  maxZ: -1173
+  maxY: 57
+  maxX: -519
+  ignoreLadders: false
+  fillMode: false
+  world: mineworld
+  minY: 2
+  resetWarnings: []
+  minX: -591
+  composition:
+    '7:0': 0.01
+    '133:0': 0.99
+  name: Goliath
+  resetClock: 0
+  minZ: -1245
+  isSilent: false

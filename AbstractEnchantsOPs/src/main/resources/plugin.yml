@@ -1,0 +1,14 @@
+name: AbstractEnchantsOP
+main: com.abstractphil.enchantments.AbstractEnchantments
+version: 0.7
+description: "Enchants OP plugin"
+depend: [RedItems, WarCore, ConfigCore,
+          PlaceholderAPI, PvPingBackpacks, MineResetLite]
+commands:
+  imbue:
+    description: Provides the imbue commands.
+    usage: See plugin documentation.
+
+  passive:
+    description: Provides the passive commands.
+    usage: See plugin documentation.

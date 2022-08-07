@@ -1,0 +1,24 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 80.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 996
+  maxY: 77
+  maxX: -822
+  ignoreLadders: true
+  fillMode: true
+  world: mineworld
+  minY: 3
+  resetWarnings:
+  - '5'
+  - '1'
+  minX: -896
+  composition:
+    '57:0': 0.4
+    '22:0': 0.3
+    '133:0': 0.3
+  name: T
+  resetClock: 29
+  minZ: 922
+  isSilent: false

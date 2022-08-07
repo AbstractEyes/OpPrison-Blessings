@@ -1,0 +1,22 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 30
+  surface: ''
+  maxZ: 1226
+  maxY: 77
+  maxX: -216
+  ignoreLadders: true
+  fillMode: true
+  world: mineworld
+  minY: 3
+  resetWarnings:
+  - '1'
+  minX: -290
+  composition:
+    '1:4': 0.8
+    '159:10': 0.2
+  name: Gangster
+  resetClock: 29
+  minZ: 1152
+  isSilent: false

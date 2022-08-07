@@ -1,0 +1,21 @@
+mine:
+  ==: com.koletar.jj.mineresetlite.Mine
+  percentageToReset: 50.0
+  resetDelay: 0
+  surface: ''
+  maxZ: -1449
+  maxY: 77
+  maxX: -425
+  ignoreLadders: false
+  fillMode: false
+  world: mineworld
+  minY: 3
+  resetWarnings: []
+  minX: -499
+  composition:
+    '133:0': 0.8
+    '7:0': 0.2
+  name: Star
+  resetClock: 0
+  minZ: -1523
+  isSilent: false
