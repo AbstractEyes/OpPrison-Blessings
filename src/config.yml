@@ -1,0 +1,7 @@
+message:
+  prefix: '&e&l(!)&e '
+  primary: '&e'
+  secondary: '&6'
+options:
+  disabled-worlds:
+    - 'plotworld'

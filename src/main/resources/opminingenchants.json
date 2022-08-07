@@ -1,0 +1,124 @@
+{
+  "openchants": {
+    "automine": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "automine",
+      "display-name": "Auto-Mine",
+      "display-message": "Automatically mining.",
+      "ranges": {
+        "x1": -3,
+        "x2": 3,
+        "y1": -3,
+        "y2": 3,
+        "z1": -3,
+        "z2": 3,
+        "animation-range": 8
+      },
+      "timers": {
+        "autoMine-ticks": 8000,
+        "autoMine-minimum-ticks": 500
+      },
+      "multipliers": {},
+      "args": {}
+    },
+    "potioneffects": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "potioneffects",
+      "display-name": "",
+      "display-message": "",
+      "timers": {},
+      "multipliers": {},
+      "ranges": {},
+      "args": {
+        "restricted-map": "warzone",
+        "speed-limiter": "3",
+        "jump-limiter": "3"
+      }
+    },
+    "drillhammer": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "drillhammer",
+      "display-name": "",
+      "display-message": "",
+      "timers": {},
+      "multipliers": {},
+      "ranges": {},
+      "args": {}
+    },
+    "explosive": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "explosive",
+      "display-name": "Explosive",
+      "display-message": "Exploded!",
+      "ranges": {},
+      "multipliers": {
+        "radius": 0.0070,
+        "chance": 1.35
+      },
+      "timers": {},
+      "args": {}
+    },
+    "omnitool": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "omnitool",
+      "display-name": "",
+      "display-message": "",
+      "timers": {},
+      "multipliers": {},
+      "ranges": {},
+      "args": {}
+    },
+    "looter": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "looter",
+      "display-name": "Looter",
+      "display-message": "",
+      "timers": {},
+      "ranges": {},
+      "args": {},
+      "multipliers": {
+        "level-amount-min": 0.15,
+        "level-amount-min-add": 4,
+        "level-amount-max": 0.4,
+        "level-amount-max-add": 8,
+        "level-chance-level-comparator": 0.0002,
+        "level-chance-max-comparator": 0.05,
+        "level-chance-min-comparator": 0.45
+
+      }
+    },
+    "experience": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "experience",
+      "display-name": "Experience",
+      "display-message": "",
+      "timers": {},
+      "ranges": {},
+      "args": {},
+      "multipliers": {
+        "bonus-exp-multiplier": 0.06
+      }
+    },
+    "unbreakable": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "unbreakable",
+      "display-name": "",
+      "display-message": "",
+      "timers": {},
+      "multipliers": {},
+      "ranges": {},
+      "args": {}
+    },
+    "withdrawl": {
+      "clazz": "org.pvpingmc.tokens.configobjects.OPEnchantData",
+      "name": "withdrawl",
+      "display-name": "",
+      "display-message": "",
+      "timers": {},
+      "multipliers": {},
+      "ranges": {},
+      "args": {}
+    }
+  }
+
+}

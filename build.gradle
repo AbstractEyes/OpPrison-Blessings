@@ -1,0 +1,77 @@
+plugins {
+    id "java"
+    id "io.freefair.lombok" version "5.3.0"
+    id "maven-publish"
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+configurations {
+    provided
+    shadow
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'src'
+        }
+    }
+    main { compileClasspath += configurations.provided }
+    main { compileClasspath += configurations.shadow }
+}
+
+jar {
+    version = null
+    from { configurations.shadow.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+
+    maven {
+        url = "https://repo.dmulloy2.net/repository/public/"
+    }
+
+    maven {
+        allowInsecureProtocol = true
+        url = "http://3.238.182.213:8081/nexus/content/repositories/releases"
+    }
+
+    maven {
+        url = uri("https://maven.pkg.github.com/pvpwars-org/spigot")
+        name = "GitHubPackages"
+        credentials {
+            username = property("GITHUB_USERNAME")
+            password = property("GITHUB_TOKEN")
+        }
+    }
+}
+
+dependencies {
+    compileOnly "net.pvpwars:spigot:1.0.1"
+    compileOnly "com.comphenix.protocol:ProtocolLib:4.6.0"
+    compileOnly "ninja.coelho:ArkJsExtLib:1.8.8"
+    compileOnly "ninja.coelho:arks:1.8.8"
+    compileOnly "com.redmancometh:RedItems:1.9"
+    compileOnly "com.redmancometh:WarCore:1.6"
+    compileOnly "com.redmancometh:ConfigCore:1.0"
+
+    compileOnly files('../libs/AbstractEnchantsOP.jar')
+    compileOnly files('../libs/ArkJsExtLib.jar')
+    compileOnly files('../libs/DIMM-idev.jar')
+    compileOnly files('../libs/Essentials.jar')
+    compileOnly files('../libs/Vault.jar')
+    compileOnly files('../libs/FastAsyncWorldEdit.jar')
+    compileOnly files('../libs/WorldEdit.jar')
+    compileOnly files('../libs/WorldGuard.jar')
+    compileOnly files('../libs/MineResetLite.jar')
+    compileOnly files('../libs/PlaceholderAPI.jar')
+    compileOnly files('../libs/PvPingBackpacks.jar')
+    compileOnly files('../libs/PiratePets.jar')
+}

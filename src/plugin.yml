@@ -1,0 +1,8 @@
+name: PvPingTokens
+main: org.pvpingmc.tokens.Main
+version: 1.0
+depend: [WorldGuard, WorldEdit,
+         FastAsyncWorldEdit, ProtocolLib,
+         MineResetLite, ArkJsExtLib,
+         DIMM, RedItems, WarCore, ConfigCore]
+softdepend: [MVdWPlaceholderAPI, PvPingAutoInv]
